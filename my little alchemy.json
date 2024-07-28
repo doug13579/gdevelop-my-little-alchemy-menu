@@ -139,7 +139,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.5843784410740926,
         "windowMask": false
       },
       "objectsGroups": [
@@ -612,16 +612,6 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "DraggableBehavior::Dragged"
-                  },
-                  "parameters": [
-                    "ItemsGroup",
-                    "Draggable"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Not"
                   },
                   "parameters": [],
@@ -635,6 +625,32 @@
                         "Dragging",
                         "True",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Not"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "ItemsGroup"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dragged"
+                      },
+                      "parameters": [
+                        "ItemsGroup",
+                        "Draggable"
                       ]
                     }
                   ]
